@@ -18,7 +18,6 @@ jobs:
         server: 103.76.129.70
         username: admin123@rifchi.my.id
         password: admin123
-        passive: true
         exclude: |
           **/.git*
           **/.git*/**

@@ -22,6 +22,6 @@ jobs:
           **/.git*
           **/.git*/**
           **/node_modules/**
-         protocol: ftp
-         passive: true
-         concurrent-uploads: 3
+        #  protocol: ftp
+        #  passive: true
+        #  concurrent-uploads: 3

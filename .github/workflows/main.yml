@@ -15,10 +15,11 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: 103.76.129.70
-        username: admin123@rifchi.my.id
-        password: admin123
+        server: <103.76.129.70>
+        username: <admin123@rifchi.my.id>
+        password: <admin123>
         exclude: |
+        passive: true
           **/.git*
           **/.git*/**
           **/node_modules/**
